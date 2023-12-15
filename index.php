@@ -1,3 +1,12 @@
+/**
+ * This file represents a CLI web interface that allows users to execute shell commands.
+ * It provides a simple HTML form where users can enter a command and submit it.
+ * The entered command is then executed using the shell_exec function, and the output is displayed on the page.
+ * 
+ * @author r5q0
+ * @version 1.0
+ */
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
